@@ -1,0 +1,22 @@
+
+<ul>
+    <li ng-repeat="item in data">
+        <span ng-click="change($index)">{{item.name}}</span>
+        <ul ng-show="$index==a">
+            <li ng-repeat="item1 in item.son">{{item1.name}}</li>
+        </ul>
+    </li>
+
+</ul>
+<!--ng-transclude原有的内容放在哪儿-->
+<!--
+<div ng-transclude></div>-->
+<script>
+    var xmlObj=new XMLHttpRequest();
+    xmlObj.onload=function(){
+
+
+    }
+    xmlObj.open("get","demo1.html");
+    xmlObj.send();
+</script>

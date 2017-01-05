@@ -1,0 +1,107 @@
+*{
+    margin:0;padding:0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 215046 */
+    src: url('../fonts/iconfont.eot');
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/iconfont.woff') format('woff'),
+    url('../fonts/iconfont.ttf') format('truetype'),
+    url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: "iconfont";
+
+}
+body{
+    position: relative;
+}
+.header{
+    width:100%;height:0.88rem;background:#EDEDED;font-size: 0.28rem;
+    text-align: center;line-height:0.88rem;font-weight: 500;
+    border-bottom: 1px solid #CACACA;
+    position: fixed;
+    z-index: 20;
+}
+.search{
+    width:100%;height: 0.7rem;background:#F4F4F4;
+    padding-top: 0.2rem;
+    position: fixed;
+    top:0.88rem;
+    z-index:10;
+}
+.se-inner{
+    width:90%;
+    height:0.52rem;
+    display: block;
+    margin:0 auto;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border:1px solid #cacaca;
+    outline: none;
+    background: #fff;
+    position:relative;
+}
+.se-icon{
+    width:0.4rem;
+    height:0.4rem;
+    position: absolute;left:0.1rem;
+    top:-0.5rem;
+    
+}
+.shuru{
+    width:85%;
+    display: block;
+    position: absolute;left:0.5rem;
+    top:0.13rem;
+    border:0;
+    outline: none;
+}
+.se-icon:before{
+    content: "\e606";
+    font-size: 0.36rem;
+    color:#898989;
+
+}
+.ls-mesage{
+    width:100%;
+    height:auto;
+    background: #EDEDED;font-size: 0.3rem;color:#424242;
+    position: absolute;
+    top:1.76rem;
+}
+.ls-message-inner a{
+    display: block;
+    width:100%;
+}
+.ls-message-inner1{
+    width:100%;
+    height:100%;
+    background:#F4F4F4;
+    border:1px solid #EAEAEA;
+    height:0.5rem;color:#161616;
+    z-index: 10;
+    margin:0 auto;
+    padding-left: 0.2rem;
+    padding-right: 0.5rem;
+    margin:0;
+}
+.ls-message-inner1 span{
+    display: inline-block;
+}
+.en{
+    position: fixed;
+    right:0rem;top:100px;
+    width:20px;
+    z-index:999;
+    font-size: 0.26rem;
+    color: #878787;
+}
